@@ -35,13 +35,13 @@
             this.shisan13FlatButton1 = new shisan13.Controls.Shisan13FlatButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.shisan13TabControl1 = new shisan13.Controls.Shisan13TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.shisan13TabSelector1 = new shisan13.Controls.Shisan13TabSelector();
             this.shisan13SingleLineTextField1 = new shisan13.Controls.Shisan13SingleLineTextField();
             this.shisan13ContextMenuStrip1 = new shisan13.Controls.Shisan13ContextMenuStrip();
             this.shisan13RaisedButton1 = new shisan13.Controls.Shisan13RaisedButton();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDownLoad)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -107,16 +107,16 @@
             this.shisan13FlatButton1.MouseState = shisan13.MouseState.HOVER;
             this.shisan13FlatButton1.Name = "shisan13FlatButton1";
             this.shisan13FlatButton1.Primary = false;
-            this.shisan13FlatButton1.Size = new System.Drawing.Size(261, 36);
+            this.shisan13FlatButton1.Size = new System.Drawing.Size(179, 36);
             this.shisan13FlatButton1.TabIndex = 8;
             this.shisan13FlatButton1.Text = "shisan13FlatButton1";
             this.shisan13FlatButton1.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.shisan13TabControl1);
             this.panel2.Controls.Add(this.webBrowser1);
             this.panel2.Controls.Add(this.dgvDownLoad);
+            this.panel2.Controls.Add(this.shisan13TabControl1);
             this.panel2.Location = new System.Drawing.Point(285, 69);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1112, 633);
@@ -133,26 +133,6 @@
             this.shisan13TabControl1.SelectedIndex = 0;
             this.shisan13TabControl1.Size = new System.Drawing.Size(762, 284);
             this.shisan13TabControl1.TabIndex = 7;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 28);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(754, 252);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 28);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(754, 252);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // webBrowser1
             // 
@@ -190,7 +170,7 @@
             this.shisan13SingleLineTextField1.SelectedText = "";
             this.shisan13SingleLineTextField1.SelectionLength = 0;
             this.shisan13SingleLineTextField1.SelectionStart = 0;
-            this.shisan13SingleLineTextField1.Size = new System.Drawing.Size(237, 32);
+            this.shisan13SingleLineTextField1.Size = new System.Drawing.Size(237, 23);
             this.shisan13SingleLineTextField1.TabIndex = 7;
             this.shisan13SingleLineTextField1.TabStop = false;
             this.shisan13SingleLineTextField1.Text = "shisan13SingleLineTextField1";
@@ -203,7 +183,7 @@
             this.shisan13ContextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.shisan13ContextMenuStrip1.MouseState = shisan13.MouseState.HOVER;
             this.shisan13ContextMenuStrip1.Name = "shisan13ContextMenuStrip1";
-            this.shisan13ContextMenuStrip1.Size = new System.Drawing.Size(74, 4);
+            this.shisan13ContextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // shisan13RaisedButton1
             // 
@@ -215,14 +195,34 @@
             this.shisan13RaisedButton1.MouseState = shisan13.MouseState.HOVER;
             this.shisan13RaisedButton1.Name = "shisan13RaisedButton1";
             this.shisan13RaisedButton1.Primary = true;
-            this.shisan13RaisedButton1.Size = new System.Drawing.Size(282, 36);
+            this.shisan13RaisedButton1.Size = new System.Drawing.Size(194, 36);
             this.shisan13RaisedButton1.TabIndex = 8;
             this.shisan13RaisedButton1.Text = "shisan13RaisedButton1";
             this.shisan13RaisedButton1.UseVisualStyleBackColor = true;
             // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(754, 258);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(754, 258);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
             // FrmBatchDownload
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.ClientSize = new System.Drawing.Size(1397, 755);
@@ -256,12 +256,12 @@
         private System.Windows.Forms.WebBrowser webBrowser1;
         private shisan13.Controls.Shisan13TabSelector shisan13TabSelector1;
         private shisan13.Controls.Shisan13TabControl shisan13TabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
         private shisan13.Controls.Shisan13SingleLineTextField shisan13SingleLineTextField1;
         private shisan13.Controls.Shisan13ContextMenuStrip shisan13ContextMenuStrip1;
         private shisan13.Controls.Shisan13RaisedButton shisan13RaisedButton1;
         private shisan13.Controls.Shisan13FlatButton shisan13FlatButton1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
     }
 }
 

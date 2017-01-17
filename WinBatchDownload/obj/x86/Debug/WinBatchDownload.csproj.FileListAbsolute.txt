@@ -29,3 +29,13 @@ Y:\Documents\易呼科技\WinBatchDownload\WinBatchDownload\WinBatchDownload\obj
 Y:\Documents\易呼科技\WinBatchDownload\WinBatchDownload\WinBatchDownload\obj\x86\Debug\WinBatchDownload.FrmBatchDownload.resources
 Y:\Documents\易呼科技\WinBatchDownload\WinBatchDownload\WinBatchDownload\obj\x86\Debug\WinBatchDownload.Properties.Resources.resources
 Y:\Documents\易呼科技\WinBatchDownload\WinBatchDownload\WinBatchDownload\obj\x86\Debug\WinBatchDownload.csproj.GenerateResource.Cache
+Y:\Documents\易呼科技\winformDownload\WinBatchDownload\bin\Debug\WinBatchDownload.exe.config
+Y:\Documents\易呼科技\winformDownload\WinBatchDownload\obj\x86\Debug\WinBatchDownload.exe
+Y:\Documents\易呼科技\winformDownload\WinBatchDownload\obj\x86\Debug\WinBatchDownload.pdb
+Y:\Documents\易呼科技\winformDownload\WinBatchDownload\bin\Debug\WinBatchDownload.exe
+Y:\Documents\易呼科技\winformDownload\WinBatchDownload\bin\Debug\WinBatchDownload.pdb
+Y:\Documents\易呼科技\winformDownload\WinBatchDownload\bin\Debug\shisan13.pdb
+Y:\Documents\易呼科技\winformDownload\WinBatchDownload\obj\x86\Debug\WinBatchDownload.csprojResolveAssemblyReference.cache
+Y:\Documents\易呼科技\winformDownload\WinBatchDownload\obj\x86\Debug\WinBatchDownload.FrmBatchDownload.resources
+Y:\Documents\易呼科技\winformDownload\WinBatchDownload\obj\x86\Debug\WinBatchDownload.Properties.Resources.resources
+Y:\Documents\易呼科技\winformDownload\WinBatchDownload\obj\x86\Debug\WinBatchDownload.csproj.GenerateResource.Cache
